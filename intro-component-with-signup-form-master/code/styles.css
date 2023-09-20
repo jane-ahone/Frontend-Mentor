@@ -1,0 +1,95 @@
+html{
+    background-image: url("../images/bg-intro-desktop.png");
+    background-color: hsl(0, 100%, 74%);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin: 0 auto;
+
+}
+.main-text{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.smaller-text{
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.right-container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    max-width: 75%;
+    border-radius: 9px;
+    padding: 1.5em 1em 0 1em;
+    position: relative;
+
+}
+input{
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin:0.7em;
+    background-color: transparent;
+    width:90%;
+    padding: 1em 2em 0.6em 0.5em;
+    border: 1.3px solid hsla(249, 10%, 26%, 0.267)  ;
+}
+::placeholder{
+    font-family: 'Poppins', sans-serif;
+    color: hsl(244, 10%, 68%); 
+    font-weight: 500;
+}
+
+button{
+    color:white;
+    width:100%;
+    padding: 0.8em 1.3em;
+    border: 0;
+    border-radius: 5px;
+    box-shadow:  1px 4px 4px rgb(0 0 0 / 15%);
+}
+
+.blue-button{
+    position: absolute;
+    left:0;
+    top:-47px;
+    letter-spacing: 0.2px;
+    background-color:hsl(248, 32%, 49%)  ;
+}
+
+.green-button{
+    background-color:hsl(154, 59%, 51%) ;
+    width:95%;
+    margin-top: 0.9em;
+}
+.right-container P{
+    color: hsl(246, 25%, 77%);
+    font-size: 0.7rem;
+}
+.right-container p span{
+    color:red ;
+}
+
+/* JS styling */
+
+.error{
+    color:rgb(207, 10, 10) !important;
+    text-align: right;
+    margin: 0;
+}
+
+.hidden{
+    display: none;
+}

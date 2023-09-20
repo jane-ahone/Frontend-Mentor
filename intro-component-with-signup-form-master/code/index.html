@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+  <title>Intro component with sign up form</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+      <div class="left-container">
+          <p class="main-text">Learn to code by<br>watching others</p>
+          <p class="smaller-text">
+              See how experienced developers solve problems in real-time.<br> Watching scripted tutorials is great,
+              but understanding how<br> developers think is invaluable.
+          </p>
+      </div>
+      <div class="right-container">
+          <button class="blue-button"><b>Try it free 7 days </b>then $20/mo. thereafter</button>
+          <input type="text" onkeydown="validateEmpty(event)" placeholder="First Name" id="first-name"></input>
+          <p class="first-name error hidden">Error</p>
+          <input type="text" onkeydown="validateEmpty(event)" placeholder="Last Name" id="last-name">  </input>
+          <p class="last-name error hidden">Error</p>
+          <input type="text" placeholder="Email Address" id="email"></input>
+          <p class="error hidden">Error</p>
+          <input type="text" onkeydown="validateEmpty(event)" placeholder="Password" id="password"></input>
+          <p class="password error hidden">Error</p>
+          <button class="green-button">CLAIM YOUR FREE TRIAL </button>
+          <p>By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+      </div>
+      
+  </div>
+ <script src="script.js"></script>
+</body>
+</html>

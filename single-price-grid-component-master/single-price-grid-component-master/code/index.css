@@ -1,0 +1,106 @@
+
+body{
+    background-color: #e6eff6;
+    font-family: 'Karla', sans-serif;
+    letter-spacing: 0.3px;
+}
+button{
+    border: none;
+    padding: 20px;
+    max-height: 12px;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    font-size: 15px;
+    border-radius: 7px;
+    margin-top: 40px;
+    width: 80%;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    background-color: hsl(71, 73%, 54%);
+}
+.container{
+    border-radius: 13px;
+    width:60%;
+    height:80vh;
+    background-color: rgb(255, 255, 255);
+    margin:7% auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+}
+.blue,.green{
+    color: white;
+    /* display: flex;
+    flex-direction: column; */
+    background-color: #2bb3b1;
+    padding:2% 5% 2% 9%;
+    border-bottom-left-radius: 13px;
+}
+.green{
+    background-color:#4abebd;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 13px;
+}
+
+.blue h3, .green h3{
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+}
+.green p{
+    font-size: 13px;
+    line-height: 9px;
+    font-weight: 200;
+    letter-spacing: 0.2px;
+}
+
+.dollar-price{
+    font-weight: 200;
+    font-size: 12px;
+}
+
+.price{
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.white h3{
+    color:hsl(71, 73%, 54%);
+    margin-top: 15px;
+    font-weight: 400;
+}
+.white h2{
+    color: #2bb3b1;
+}
+.white p{
+    color:hsl(204, 43%, 93%);
+    line-height:30px ;
+}
+
+
+.white{
+    grid-column: span 2;
+    padding:2% 5%;
+}
+
+@media (max-width:800px) {
+.container{
+    display:flex;
+    flex-direction: column;
+    margin:5% auto;
+}
+.blue{
+    border-radius: 0px;
+}
+.green{
+    border-bottom-left-radius: 13px;
+}
+button{
+    margin-top: minmax(3px,5px);
+}
+}
+

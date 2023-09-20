@@ -1,0 +1,69 @@
+html{
+    background-image: url("../images/bg-pattern-desktop.svg");
+    font-size: 16px;
+}
+body{
+font-family: 'Josefin Sans', sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 0.7fr 1fr;
+    max-width: 100%;
+    align-items: stretch;
+    justify-items: end;
+    
+}
+.text-container{
+   padding:3em;
+   padding-top: 0;
+}
+.logo{
+    margin-top: 2em;
+    
+}
+.coming-soon{
+    font-size: 6rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    margin-bottom: 30px;
+}
+span{
+    color: hsl(0, 36%, 70%);
+    font-weight: 300;
+}
+.text{
+    color: hsl(0, 36%, 70%);
+    font-weight: 400;
+    margin-bottom: 2.4em;
+}
+::placeholder {
+    color: hsla(0, 30%, 75%, 0.705);
+    font-weight: 300;
+  }
+.input-container{
+    display: flex;
+    position: relative;
+}
+input{
+    border-radius: 23px;
+    border: 1px solid hsl(0, 36%, 70%);
+    padding:1.5em;
+    width:80%;
+    background-color: transparent;
+}
+.arrow-icon{
+    background: linear-gradient(135deg,hsl(0, 80%, 86%),hsl(0, 74%, 74%));
+    border: none;
+    color: white;
+    position: absolute;
+    z-index: 2 ;
+    right: 50px;
+    border-radius: 30px;
+    padding: 1.2em 3em;
+}
+
+.hero-image{
+    height: 80%;
+    
+}
