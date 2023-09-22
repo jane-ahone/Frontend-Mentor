@@ -15,8 +15,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### Screenshot
@@ -25,8 +23,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://your-solution-url.com)](https://github.com/PixelBerry2/Frontend-Mentor/edit/main/qr-code-component-main)
+- Live Site URL: (https://qr-code-layout.netlify.app/)
 
 ## My process
 
@@ -38,22 +36,16 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-I got to practice the basics of creating layouts using flexbox, centering elements using margin and using variable units such as em and perecntages to make the design more responsive
+I got to practice the basics of creating layouts using Flexbox, centering elements using margin and using variable units such as em and percentages to make the design more responsive
 
 
 To see how you can add code snippets, see below:
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- MDN Docs [https://developer.mozilla.org/en-US/]: This helped me get the correct syntax of some HTML properties a
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [PixelBerry2][(https://www.frontendmentor.io/profile/PixelBerry2)]
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
